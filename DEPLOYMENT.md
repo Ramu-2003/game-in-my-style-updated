@@ -26,7 +26,9 @@
 
 4. **Environment Variables**
    Add the following environment variable:
-   - `VITE_API_URL` = Your Render backend URL (e.g., https://your-app.onrender.com)
+   - `VITE_API_URL` = Your Render backend URL with /api (e.g., `https://game-in-my-style-updated.onrender.com/api`)
+   
+   **IMPORTANT:** Make sure to include `/api` at the end of the URL!
 
 5. **Deploy**
    - Click "Deploy"
