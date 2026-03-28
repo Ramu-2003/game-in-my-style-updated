@@ -1,0 +1,15 @@
+import JavaLevelTemplate from "../../components/levels/JavaLevelTemplate";
+import { javaPhase2Levels } from "../../config/javaPhase2Levels";
+
+const JavaLevel4Page = () => {
+  return (
+    <JavaLevelTemplate 
+      challenge={javaPhase2Levels[4]}
+      course="java"
+      phase={2}
+      levelNumber={4}
+    />
+  );
+};
+
+export default JavaLevel4Page;
